@@ -120,16 +120,16 @@ class HomePage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'นัฐพณธ์ ปาแดง',
+                    '顾君宸',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 16,
                     ),
                   ),
                   SizedBox(height: 5),
-                  Text('นักศึกษา สาขาเทคโนโลยีสารสนเทศ'),
-                  Text('ใช้ชีวิตให้มีความสุขในทุก ๆ วัน 💙'),
-                  Text('Learning Flutter 🚀'),
+                  Text('รักตี๋' ),
+                  Text('ไม่ทิ้งตี๋'),
+
                 ],
               ),
             ),
@@ -202,34 +202,32 @@ class HomePage extends StatelessWidget {
           const SizedBox(height: 10),
 
           // รูปภาพประกอบ 3 ภาพจากอินเทอร์เน็ต
-          Expanded(
-            child: Row(
-              children: [
-                Expanded(
-                  child: Image.network(
-                    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK4-q-RWpC0xUKHLApx-awhjlQb8XWu5HhtWm1KnA2TLhQG3pC3mMgs2FA&s=10',
-                    fit: BoxFit.cover,
-                    height: 180,
-                  ),
+          Row(
+            children: [
+              Expanded(
+                child: Image.network(
+                  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmH7z-BCFLdd37wzWdmeHHjXd0HG6xUh1kwTom53EotkC8Nw1nHt9oXR0&s=10',
+                  fit: BoxFit.cover,
+                  height: 180,
                 ),
+              ),
 
-                Expanded(
-                  child: Image.network(
-                    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNax7OSoZQDJ3IVZmheySuMntLjr1nrrduh_Qg_Jr4WxfF2a8hjtP8o55p&s=10',
-                    fit: BoxFit.cover,
-                    height:180,
-                  ),
+              Expanded(
+                child: Image.network(
+                  'https://s.isanook.com/mv/0/ui/37/188006/1.jpg',
+                  fit: BoxFit.cover,
+                  height: 180,
                 ),
+              ),
 
-                Expanded(
-                  child: Image.network(
-                    'https://i.pinimg.com/564x/cf/a6/18/cfa6186fb2cf943929d6e1fde03fa729.jpg',
-                    fit: BoxFit.cover,
-                    height: 180,
-                  ),
+              Expanded(
+                child: Image.network(
+                  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpFt0PFoqwkIFObywdFBMLPByYTa8kbMnb1ApbT0lJgw&s=10',
+                  fit: BoxFit.cover,
+                  height: 180,
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
         ],
       ),
